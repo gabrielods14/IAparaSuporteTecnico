@@ -1,8 +1,34 @@
-Atualmente, muitas empresas não consideram necessário o investimento em tecnologias para aprimorar o suporte técnico. No entanto, diversos estudos e pesquisas indicam que um setor de suporte composto exclusivamente por atendentes humanos pode não ser totalmente eficiente.
+# Projeto de Sistema de Suporte com serviços de IA
 
-Um artigo do portal TecMundo destaca algumas das principais falhas em suportes 100% humanizados. Entre elas, está a questão da segurança da tecnologia: de acordo com o artigo, "nos últimos seis anos, 57% dos incidentes cibernéticos foram causados por falhas técnicas ou erros humanos". Isso significa que mais da metade das operações apresentam riscos de segurança para os clientes.
+Este projeto visa desenvolver um sistema integrado de suporte técnico para uma empresa de médio porte. O objetivo é substituir o atual processo de recebimento de chamados por e-mail, permitindo o registro centralizado das solicitações. A inteligência artificial (IA) será usada para sugerir soluções de forma automática ou encaminhar os chamados ao técnico adequado, com base nas intruções fornecidas pelo time de desenvolvimento.
 
-Além disso, outras áreas também são impactadas por erros humanos, como o setor de delivery. Pedidos anotados incorretamente podem resultar na devolução de produtos, perdas financeiras e até mesmo na insatisfação e perda de clientes. Esses problemas podem afetar significativamente a reputação e os lucros das empresas.
+## Objetivo Geral
 
-Diante desse cenário, este projeto foi desenvolvido com o objetivo de reduzir erros humanos no suporte técnico das empresas, tornando-o mais eficiente e proporcionando um ambiente de trabalho mais produtivo. A implementação da Inteligência Artificial (IA) no suporte surge como uma solução para minimizar falhas, garantir um atendimento 24 horas para empresas que operam fora do horário comercial e melhorar a interpretação das necessidades dos usuários.
-Com o uso de IA, esse problema pode ser mitigado, pois a tecnologia é capaz de interpretar melhor as demandas dos clientes e auxiliar na resolução de problemas, garantindo um suporte mais preciso e satisfatório.
+
+## Requisitos Funcionais (RF)
+
+
+## Requisitos Não Funcionais (RNF)
+
+
+## Diagramas do sistema 
+
+Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os abaixo:
+
+
+## Tecnologias Utilizadas
+
+- *Linguagem*: C#
+- *Framework*: .NET
+- *Banco de Dados*: SQLServer
+- *Ferramentas*: GitHub, Trello 
+
+
+## Integrantes
+
+- [Lucas de Oliveira Silva](https://github.com/Kript0-Web) (Scrum Master)
+- [Samuel Jhonata de Lima](https://github.com/SamuJL) (PO)
+- [Gabriel Oliveira dos Santos](https://github.com/gabrielods14) (Dev)
+- [João Gabriel Goulart Silva](https://github.com/Goulart06) (Dev)
+- [Thiago Almeida](https://github.com/Thiagoalmeida74) (Dev)
+- [Richard Willian Barreto](https://github.com/RichardZl123) (Dev
