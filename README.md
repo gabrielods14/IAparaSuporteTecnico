@@ -1,0 +1,8 @@
+Atualmente, muitas empresas não consideram necessário o investimento em tecnologias para aprimorar o suporte técnico. No entanto, diversos estudos e pesquisas indicam que um setor de suporte composto exclusivamente por atendentes humanos pode não ser totalmente eficiente.
+
+Um artigo do portal TecMundo destaca algumas das principais falhas em suportes 100% humanizados. Entre elas, está a questão da segurança da tecnologia: de acordo com o artigo, "nos últimos seis anos, 57% dos incidentes cibernéticos foram causados por falhas técnicas ou erros humanos". Isso significa que mais da metade das operações apresentam riscos de segurança para os clientes.
+
+Além disso, outras áreas também são impactadas por erros humanos, como o setor de delivery. Pedidos anotados incorretamente podem resultar na devolução de produtos, perdas financeiras e até mesmo na insatisfação e perda de clientes. Esses problemas podem afetar significativamente a reputação e os lucros das empresas.
+
+Diante desse cenário, este projeto foi desenvolvido com o objetivo de reduzir erros humanos no suporte técnico das empresas, tornando-o mais eficiente e proporcionando um ambiente de trabalho mais produtivo. A implementação da Inteligência Artificial (IA) no suporte surge como uma solução para minimizar falhas, garantir um atendimento 24 horas para empresas que operam fora do horário comercial e melhorar a interpretação das necessidades dos usuários.
+Com o uso de IA, esse problema pode ser mitigado, pois a tecnologia é capaz de interpretar melhor as demandas dos clientes e auxiliar na resolução de problemas, garantindo um suporte mais preciso e satisfatório.
