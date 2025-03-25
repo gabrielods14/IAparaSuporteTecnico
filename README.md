@@ -4,12 +4,29 @@ Este projeto visa desenvolver um sistema integrado de suporte técnico para uma 
 
 ## Objetivo Geral
 
+Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatizar processos de trabalhos com mais eficiencia
+
 
 ## Requisitos Funcionais (RF)
 
 
+1. Login do usuário 
+2. cria histórico de problemas 
+3. da soluções para o cliente 
+4. deixa criar introduções 
+5. entende o problema por palavras chaves 
+6. cria histórico 
+7. manda feedback pro suporte 
+8. pede feedback para o cliente sobre o problema se foi resolvido 
+9. responde por e-mail 
+10. prioriza os chamados por complexidade do problemas 
+
 ## Requisitos Não Funcionais (RNF)
 
+1. Desempenho e Eficiência
+2. Segurança e Privacidade
+3. Manutenção e evolução
+4. Usabilidade e Acessibilidade
 
 ## Diagramas do sistema 
 
