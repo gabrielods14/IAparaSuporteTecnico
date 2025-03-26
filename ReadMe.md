@@ -32,7 +32,7 @@ Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatiza
 
 Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os abaixo:
 
-- [Diagramas de caso de uso](https://github.com/gabrielods14/IAparaSuporteTecnico/tree/main/Diagramas-de-Caso-de-Uso)
+- [Diagramas de caso de uso](https://github.com/gabrielods14/IAparaSuporteTecnico/tree/main/Diagramas%20de%20Caso%20de%20Uso)
 
 
 ## Tecnologias Utilizadas
