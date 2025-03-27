@@ -10,29 +10,32 @@ Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatiza
 ## Requisitos Funcionais (RF)
 
 
-1. Login do usuário 
-2. cria histórico de problemas 
-3. da soluções para o cliente 
-4. deixa criar introduções 
-5. entende o problema por palavras chaves 
-6. cria histórico 
-7. manda feedback pro suporte 
-8. pede feedback para o cliente sobre o problema se foi resolvido 
-9. responde por e-mail 
-10. prioriza os chamados por complexidade do problemas 
+1. O sistema deve permitir o cadastro de clientes pela equipe de suporte.
+2. A equipe de suporte deve conseguir configurar as instruções da IA.
+3. O sistema deve receber mensagens via e-mail e WhatsApp (futuro).
+4. A IA deve classificar automaticamente as mensagens recebidas.
+5. A IA deve responder automaticamente quando possível.
+6. Caso a IA não consiga responder, a mensagem deve ser encaminhada a um atendente humano.
+7. O sistema deve armazenar todo o histórico de interações no banco de dados.
+   
 
 ## Requisitos Não Funcionais (RNF)
 
-1. Desempenho e Eficiência
-2. Segurança e Privacidade
-3. Manutenção e evolução
-4. Usabilidade e Acessibilidade
+
+1. O sistema deve ser desenvolvido em C# e utilizar MySQL como banco de dados.
+2. A IA deve utilizar serviços como OpenAI ou Dialogflow para NLP.
+3. O sistema deve garantir segurança e privacidade dos dados dos clientes.
+4. O tempo de resposta da IA pode ser escolhida para deixar mais humanizada
+5. O sistema deve ser escalável para suportar múltiplos clientes simultaneamente.
+   
 
 ## Diagramas do sistema 
+
 
 Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os abaixo:
 
 - [Diagramas de caso de uso](https://github.com/gabrielods14/IAparaSuporteTecnico/tree/main/Diagramas%20de%20Caso%20de%20Uso)
+
 
 
 ## Tecnologias Utilizadas
@@ -41,6 +44,7 @@ Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os
 - *Framework*: .NET
 - *Banco de Dados*: SQLServer
 - *Ferramentas*: GitHub, Trello 
+
 
 
 ## Integrantes
