@@ -22,7 +22,7 @@ Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatiza
 ## Requisitos Não Funcionais (RNF)
 
 
-1. O sistema deve ser desenvolvido em C# e utilizar MySQL como banco de dados.
+1. O sistema deve ser desenvolvido em C# e utilizar SQLServer como banco de dados.
 2. A IA deve utilizar serviços como OpenAI ou Dialogflow para NLP.
 3. O sistema deve garantir segurança e privacidade dos dados dos clientes.
 4. O tempo de resposta da IA pode ser escolhida para deixar mais humanizada
@@ -31,11 +31,23 @@ Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatiza
 
 ## Diagramas do sistema 
 
-
 Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os abaixo:
 
 - [Diagramas de caso de uso](https://github.com/gabrielods14/IAparaSuporteTecnico/tree/main/Diagramas%20de%20Caso%20de%20Uso)
 
+
+## Sprints
+
+As sprints foram dividias em 4 etapas para serem feitas em 1 semana cada, sendo elas:
+
+Aqui está o quadro com a divisão das sprints:  
+
+| **Sprint** | **Objetivo** | **Principais Tarefas** | **Entrega Esperada** |  
+|-----------|------------|------------------|----------------|  
+| **Sprint 1** | Configuração do sistema e integração com e-mail | - Modelagem do banco de dados<br>- Implementar API backend em C#<br>- Criar painel administrativo básico<br>- Configurar integração com e-mail (MailKit)<br>- Documentação inicial | O sistema recebe e-mails e os armazena no banco de dados |  
+| **Sprint 2** | Implementação da IA para classificar e responder e-mails | - Configurar OpenAI/Dialogflow<br>- Criar regras de categorização de mensagens<br>- Implementar respostas automáticas da IA<br>- Melhorar o painel administrativo<br>- Criar logs de interações | Sistema classifica e responde automaticamente via e-mail |  
+| **Sprint 3** | Encaminhamento para atendentes e melhorias no atendimento | - Implementar encaminhamento para atendente humano<br>- Criar notificações de novos tickets<br>- Melhorar monitoramento no painel administrativo<br>- Refinar IA para respostas mais humanizadas<br>- Testes de desempenho | Sistema identifica problemas simples e complexos, enviando os difíceis para atendentes |  
+| **Sprint 4** | Ajustes finais e refinamento para entrega | - Otimizar integração com e-mail<br>- Melhorar interface do painel administrativo<br>- Criar relatórios de desempenho da IA<br>- Ajustar IA com base nos testes finais<br>- Correção de bugs e documentação final | Sistema totalmente funcional e pronto para apresentação |  
 
 
 ## Tecnologias Utilizadas
