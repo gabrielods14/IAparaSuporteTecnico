@@ -27,6 +27,7 @@ Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatiza
 3. O sistema deve garantir segurança e privacidade dos dados dos clientes.
 4. O tempo de resposta da IA pode ser escolhida para deixar mais humanizada
 5. O sistema deve ser escalável para suportar múltiplos clientes simultaneamente.
+6. Manutenibilidade
    
 
 ## Diagramas do sistema 
