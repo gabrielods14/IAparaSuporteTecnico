@@ -6,34 +6,30 @@ Este projeto visa desenvolver um sistema integrado de suporte técnico para uma 
 
 Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatizar processos de trabalhos com mais eficiencia.
 
-
 ## Requisitos Funcionais (RF)
 
+1.  O sistema deve permitir o cadastro de clientes pelos desenvolvedores.
+2. Os desenvolvedores do sistema configuram as instruções da IA.
+3. O sistema deve receber mensagens via e-mail e WhatsApp (futuro).
+4. A IA deve classificar automaticamente as mensagens recebidas.
+5. A IA deve responder automaticamente quando possível.
+6. Caso a IA não consiga responder, a mensagem deve ser encaminhada a um atendente humano.
+7. O sistema deve armazenar todo o histórico de interações no banco de dados.
 
-1. Login do usuário 
-2. cria histórico de problemas 
-3. da soluções para o cliente 
-4. deixa criar introduções 
-5. entende o problema por palavras chaves 
-6. cria histórico 
-7. manda feedback pro suporte 
-8. pede feedback para o cliente sobre o problema se foi resolvido 
-9. responde por e-mail 
-10. prioriza os chamados por complexidade do problemas 
 
 ## Requisitos Não Funcionais (RNF)
 
-1. Desempenho e Eficiência
+1. Eficiência
 2. Segurança e Privacidade
-3. Manutenção e evolução
-4. Usabilidade e Acessibilidade
+3. Manutenção 
+4. Usabilidade
+5. Acessibilidade
 
 ## Diagramas do sistema 
 
 Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os abaixo:
 
 - [Diagramas de caso de uso](https://github.com/gabrielods14/IAparaSuporteTecnico/tree/main/Diagramas%20de%20Caso%20de%20Uso)
-
 
 ## Tecnologias Utilizadas
 
@@ -42,12 +38,11 @@ Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os
 - *Banco de Dados*: SQLServer
 - *Ferramentas*: GitHub, Trello 
 
-
 ## Integrantes
 
 - [Lucas de Oliveira Silva](https://github.com/Kript0-Web) (Scrum Master)
 - [Samuel Jhonata de Lima](https://github.com/SamuJL) (PO)
 - [Gabriel Oliveira dos Santos](https://github.com/gabrielods14) (Dev)
 - [João Gabriel Goulart Silva](https://github.com/Goulart06) (Dev)
-- [Thiago Almeida](https://github.com/Thiagoalmeida74) (Dev)
+- [Thiago Almeida Souza](https://github.com/Thiagoalmeida74) (Dev)
 - [Richard Willian Barreto](https://github.com/RichardZl123) (Dev)
