@@ -32,6 +32,15 @@ Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatiza
 
 Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os abaixo:
 
+## Aqui está as sprints dos requisitos do sistema:
+
+| Sprint | Objetivo | Principais Tarefas | Entrega Esperada |
+|-----------|------------|------------------|----------------|
+| Sprint 1 | Configuração do sistema e integração com e-mail | - Modelagem do banco de dados<br>- Implementar API backend em C#<br>- Criar painel administrativo básico<br>- Configurar integração com e-mail (MailKit)<br>- Documentação inicial | O sistema recebe e-mails e os armazena no banco de dados |
+| Sprint 2 | Implementação da IA para classificar e responder e-mails | - Configurar OpenAI/Dialogflow<br>- Criar regras de categorização de mensagens<br>- Implementar respostas automáticas da IA<br>- Melhorar o painel administrativo<br>- Criar logs de interações | Sistema classifica e responde automaticamente via e-mail |
+| Sprint 3 | Encaminhamento para atendentes e melhorias no atendimento | - Implementar encaminhamento para atendente humano<br>- Criar notificações de novos tickets<br>- Melhorar monitoramento no painel administrativo<br>- Refinar IA para respostas mais humanizadas<br>- Testes de desempenho | Sistema identifica problemas simples e complexos, enviando os difíceis para atendentes |
+| Sprint 4 | Ajustes finais e refinamento para entrega | - Otimizar integração com e-mail<br>- Melhorar interface do painel administrativo<br>- Criar relatórios de desempenho da IA<br>- Ajustar IA com base nos testes finais<br>- Correção de bugs e documentação final | Sistema totalmente funcional e pronto para apresentação |
+
 
 ## Tecnologias Utilizadas
 
