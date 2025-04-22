@@ -44,5 +44,5 @@ Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os
 - [Samuel Jhonata de Lima](https://github.com/SamuJL) (PO)
 - [Gabriel Oliveira dos Santos](https://github.com/gabrielods14) (Dev)
 - [João Gabriel Goulart Silva](https://github.com/Goulart06) (Dev)
-- [Thiago Almeida Souza](https://github.com/Thiagoalmeida74) (Dev)
+- [Thiago Almeida Ribeiro](https://github.com/Thiagoalmeida74) (Dev)
 - [Richard Willian Barreto](https://github.com/RichardZl123) (Dev)
