@@ -10,17 +10,19 @@ Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatiza
 ## Requisitos Funcionais (RF)
 
 
-1. Login do usuário 
-2. cria histórico de problemas 
-3. da soluções para o cliente 
-4. deixa criar introduções 
-5. entende o problema por palavras chaves 
-6. cria histórico 
-7. manda feedback pro suporte 
-8. pede feedback para o cliente sobre o problema se foi resolvido 
-9. responde por e-mail 
-10. prioriza os chamados por complexidade do problemas 
+1. Vincular o email que ser usado para responder
+2. Ter um acesso admin
+3. ter um um visualizador de empresas cadastradas e poder selecionar a empresa que vai mexer
+4. cadastrar usuario (com niveis de acesso)
+5. O sistema deve permitir o cadastro de clientes pela equipe de suporte.
+6. A equipe de suporte deve conseguir configurar as instruções da IA.
+7. O sistema deve receber mensagens via e-mail e WhatsApp (futuro).
+8. A IA deve classificar automaticamente as mensagens recebidas.
+9. A IA deve responder automaticamente quando possível.
+10. Caso a IA não consiga responder, a mensagem deve ser encaminhada a um atendente humano.
+11. O sistema deve armazenar todo o histórico de interações no banco de dados.
 
+    
 ## Requisitos Não Funcionais (RNF)
 
 1. Desempenho e Eficiência
@@ -34,12 +36,32 @@ Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os
 
 ## Aqui está as sprints dos requisitos do sistema:
 
-| Sprint | Objetivo | Principais Tarefas | Entrega Esperada |
-|-----------|------------|------------------|----------------|
-| Sprint 1 | Configuração do sistema e integração com e-mail | - Modelagem do banco de dados<br>- Implementar API backend em C#<br>- Criar painel administrativo básico<br>- Configurar integração com e-mail (MailKit)<br>- Documentação inicial | O sistema recebe e-mails e os armazena no banco de dados |
-| Sprint 2 | Implementação da IA para classificar e responder e-mails | - Configurar OpenAI/Dialogflow<br>- Criar regras de categorização de mensagens<br>- Implementar respostas automáticas da IA<br>- Melhorar o painel administrativo<br>- Criar logs de interações | Sistema classifica e responde automaticamente via e-mail |
-| Sprint 3 | Encaminhamento para atendentes e melhorias no atendimento | - Implementar encaminhamento para atendente humano<br>- Criar notificações de novos tickets<br>- Melhorar monitoramento no painel administrativo<br>- Refinar IA para respostas mais humanizadas<br>- Testes de desempenho | Sistema identifica problemas simples e complexos, enviando os difíceis para atendentes |
-| Sprint 4 | Ajustes finais e refinamento para entrega | - Otimizar integração com e-mail<br>- Melhorar interface do painel administrativo<br>- Criar relatórios de desempenho da IA<br>- Ajustar IA com base nos testes finais<br>- Correção de bugs e documentação final | Sistema totalmente funcional e pronto para apresentação |
+| **REQUISITO**                                         | **TAREFA**                                                       | **SPRINT** | **PRIORIDADE** |
+| ----------------------------------------------------- | ---------------------------------------------------------------- | ---------- | -------------- |
+| Ter acesso admin                                      | Criar modelo de usuário com papel/admin                          | Sprint 1   | Alta           |
+|                                                       | Implementar autenticação e login                                 | Sprint 1   | Alta           |
+|                                                       | Criar verificação de acesso somente para admins                  | Sprint 1   | Alta           |
+|                                                       | Criar interface de login                                         | Sprint 1   | Alta           |
+| Cadastrar usuário                                     | Criar tela de cadastro de usuário                                | Sprint 1   | Alta           |
+|                                                       | Validar dados e salvar no banco                                  | Sprint 1   | Alta           |
+|                                                       | Testar criação e listagem de usuários                            | Sprint 1   | Alta           |
+| Cadastrar empresas                                    | Criar modelo de empresa e relacionar com usuário                 | Sprint 1   | Alta           |
+|                                                       | Criar tela e API de cadastro de empresa                          | Sprint 1   | Alta           |
+| Visualizar empresas                                   | Criar tela de listagem de empresas                               | Sprint 1   | Alta           |
+|                                                       | Implementar filtros e seleção                                    | Sprint 1   | Alta           |
+| Cadastrar instruções                                  | Criar tela de cadastro de instruções                             | Sprint 2   | Média          |
+|                                                       | Validar e salvar instruções por empresa                          | Sprint 2   | Média          |
+| Vincular o e-mail que será usado                      | Criar campo de e-mail de resposta por empresa                    | Sprint 2   | Média          |
+|                                                       | Configurar e testar integração com MailKit (envio e recebimento) | Sprint 2   | Média          |
+| IA deve responder automaticamente                     | Criar serviço da IA que processa e envia resposta                | Sprint 2   | Média          |
+|                                                       | Integrar IA com sistema de e-mail (ex: MailKit)                  | Sprint 2   | Média          |
+| IA deve classificar mensagens automaticamente         | Criar serviço/classificador por palavra-chave ou NLP             | Sprint 2   | Média          |
+|                                                       | Relacionar categorias com instruções salvas                      | Sprint 2   | Média          |
+| Caso a IA não responda, mandar para equipe de suporte | Detectar falha na IA e encaminhar mensagem para suporte humano   | Sprint 3   | Baixa          |
+|                                                       | Notificar ou registrar esse redirecionamento                     | Sprint 3   | Baixa          |
+| Histórico de conversa                                 | Criar tabela de logs de mensagens                                | Sprint 3   | Baixa          |
+|                                                       | Criar tela de histórico com filtros e paginação                  | Sprint 3   | Baixa          |
+
 
 
 ## Tecnologias Utilizadas
