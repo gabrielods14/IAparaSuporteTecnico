@@ -30,6 +30,11 @@ Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatiza
 3. Manutenção e evolução
 4. Usabilidade e Acessibilidade
 
+
+## Sprint Backlog
+
+A sprint backlog foi feita levanto os seguintes requisitos em consideração, MVP e prioridade. Usamos a metodologia de MVP para listar os requisitos minimos para ter um produto funcionando. Basedado nisso também levamos em consideração a importancia de cada requisito, dado como alta: Prioridade máxima. Média: Muito importante, porém menos urgente. Bixa: Requisito que pode ser feito mais para o final, levando em consideração funções que podem ser fetias após o sistema pronto. Abaixo terá um link para um arquivo PNG, onde tem uma tabela feita em Execel ilustrando está descrição.
+
 ## Diagramas do sistema 
 
 Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os abaixo:
@@ -69,7 +74,7 @@ Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os
 - *Linguagem*: C#
 - *Framework*: .NET
 - *Banco de Dados*: SQLServer
-- *Ferramentas*: GitHub, Trello 
+- *Ferramentas*: GitHub, Trello, Figma
 
 
 ## Integrantes
