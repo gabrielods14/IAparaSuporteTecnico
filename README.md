@@ -35,6 +35,8 @@ Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatiza
 
 A sprint backlog foi feita levanto os seguintes requisitos em consideração, MVP e prioridade. Usamos a metodologia de MVP para listar os requisitos minimos para ter um produto funcionando. Basedado nisso também levamos em consideração a importancia de cada requisito, dado como alta: Prioridade máxima. Média: Muito importante, porém menos urgente. Bixa: Requisito que pode ser feito mais para o final, levando em consideração funções que podem ser fetias após o sistema pronto. Abaixo terá um link para um arquivo PNG, onde tem uma tabela feita em Execel ilustrando está descrição.
 
+- [Tabela sprint Backlog](https://github.com/gabrielods14/IAparaSuporteTecnico/commit/fa0a69a3eb90e343fd1bf6e4e055b02d184d595b)
+
 ## Diagramas do sistema 
 
 Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os abaixo:
