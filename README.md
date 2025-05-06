@@ -43,9 +43,11 @@ Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os
 
 ## Aqui está as sprints dos requisitos do sistema:
 
+A formatação feita para o Github perdeu as datas. As sprints foram usados duas semanas para cada uma. A sprint 1 foi usado do dia 8 de abril até dia 15 de abril. A sprint 2 do dia 15 até dia 29. E a sprint 3 ainda está em desenvolvimento, começou no dia 30 e vai até dia 13.
+
 | **REQUISITO**                                         | **TAREFA**                                                       | **SPRINT** | **PRIORIDADE** |
 | ----------------------------------------------------- | ---------------------------------------------------------------- | ---------- | -------------- |
-| Ter acesso admin                                      | Criar modelo de usuário com papel/admin                          | Sprint 1   | Alta           |
+| Ter acesso admin                                      | Criar modelo de usuário com papel/admin                          | Sprint 1   | Alta           | 
 |                                                       | Implementar autenticação e login                                 | Sprint 1   | Alta           |
 |                                                       | Criar verificação de acesso somente para admins                  | Sprint 1   | Alta           |
 |                                                       | Criar interface de login                                         | Sprint 1   | Alta           |
