@@ -72,6 +72,9 @@ A formatação feita para o Github perdeu as datas. As sprints foram usados duas
 |                                                       | Criar tela de histórico com filtros e paginação                  | Sprint 3   | Baixa          |
 
 
+## o arquivo astah está neste link:
+
+- [Arquivo Astah](https://github.com/gabrielods14/IAparaSuporteTecnico/tree/main/Diagramas%20uc%20do%20sistema)
 
 ## Tecnologias Utilizadas
 
