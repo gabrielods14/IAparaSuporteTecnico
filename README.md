@@ -37,9 +37,6 @@ A sprint backlog foi feita levanto os seguintes requisitos em consideração, MV
 
 - [Tabela sprint Backlog](https://github.com/gabrielods14/IAparaSuporteTecnico/blob/main/Sprint%20Backlog/sprintbacklog.jpg)
 
-## Diagramas do sistema 
-
-Os diagramas do sistema estão disponíveis em pastas no repositório. Acesse-os abaixo:
 
 ## Aqui está as sprints dos requisitos do sistema:
 
@@ -72,9 +69,9 @@ A formatação feita para o Github perdeu as datas. As sprints foram usados duas
 |                                                       | Criar tela de histórico com filtros e paginação                  | Sprint 3   | Baixa          |
 
 
-## o arquivo astah está neste link:
+## o arquivo astah com os diagramas está neste link:
 
-- [Arquivo Astah](https://github.com/gabrielods14/IAparaSuporteTecnico/tree/main/Diagramas%20uc%20do%20sistema)
+- [Arquivo Astah](https://github.com/gabrielods14/IAparaSuporteTecnico/tree/main/Pasta%20diagramas%20do%20sistema)
 
 ## Tecnologias Utilizadas
 
@@ -91,4 +88,4 @@ A formatação feita para o Github perdeu as datas. As sprints foram usados duas
 - [Gabriel Oliveira dos Santos](https://github.com/gabrielods14) (Dev)
 - [João Gabriel Goulart Silva](https://github.com/Goulart06) (Dev)
 - [Thiago Almeida Ribeiro](https://github.com/Thiagoalmeida74) (Dev)
-- [Richard Willian Barreto](https://github.com/RichardZl123) (Dev
+- [Richard Willian Barreto](https://github.com/RichardZl123) (Dev)
