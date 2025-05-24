@@ -73,6 +73,24 @@ A formatação feita para o Github perdeu as datas. As sprints foram usados duas
 
 - [Arquivo Astah](https://github.com/gabrielods14/IAparaSuporteTecnico/tree/main/Pasta%20diagramas%20do%20sistema)
 
+## Planilha de teste unitário
+
+Esta planilha reúne os principais testes unitários do sistema Help IA. Cada linha descreve uma funcionalidade testada, incluindo pré-condições, dados de entrada, resultado esperado, critério de aceitação e prioridade.
+
+O objetivo é garantir que cada função do sistema funcione corretamente de forma isolada, contribuindo para a estabilidade e qualidade do projeto. 
+
+| **ID** | **Função**                  | **Descrição do Caso de Teste**                           | **Pré-condição**                               | **Dados de Entrada**                  | **Resultado Esperado**                                        | **Critério de Aceitação**                                                   | **Prioridade** |
+| ------ | --------------------------- | -------------------------------------------------------- | ---------------------------------------------- | ------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------- |
+| TC001  | Login_admin()                 | Verificar login com credenciais válidas                  | Admin já cadastrado                            | Usuário: admin<br>Senha: admin        | Acesso ao sistema com permissões de admin                     | Sistema deve permitir acesso e redirecionar para dashboard do admin         | Alta           |
+| TC002  | Cadastro_de_usuário()         | Criar um novo usuário com perfil comum                   | Admin logado                                   | Nome, Email, Senha, Papel = "usuário" | Usuário criado e salvo no banco                               | Exibir mensagem de sucesso e listar novo usuário no painel                  | Alta           |
+| TC003  | Cadastro_de_empresa()         | Cadastrar uma nova empresa                               | Admin logado                                   | Nome da empresa, CNPJ, Email, etc.    | Empresa salva no banco e listada na tela de empresas          | Exibir confirmação de cadastro e listar empresa em tela                     | Alta           |
+| TC004  | Cadastro_de_instrução_da_IA() | Criar nova instrução para resposta automática da IA      | Admin e funcionsario logado e empresa selecionada             | Palavra-chave, resposta, contexto     | Instrução salva com sucesso                                   | IA passa a responder e-mail relacionado ao tema usando essa instrução       | Média          |
+| TC005  | Classificação_de_e-mails()    | IA deve classificar e-mails recebidos                    | IA ativa e empresa com instruções cadastradas  | E-mail com palavras-chave             | IA classifica corretamente com base nas instruções existentes | Classificação condizente com conteúdo da mensagem recebida                  | Média          |
+| TC006  | Resposta_automática()         | IA deve responder automaticamente com base em instrução  | E-mail classificado e instrução correspondente | E-mail com problema comum             | E-mail respondido com texto da instrução                      | Cliente recebe resposta automaticamente no e-mail                           | Alta           |
+| TC007  | Encaminhamento_ao_suporte()   | IA não entende o e-mail e encaminha ao suporte humano    | E-mail sem correspondência nas instruções      | E-mail com conteúdo novo              | E-mail redirecionado à equipe de suporte                      | Mensagem não respondida automaticamente deve ser visível ao time de suporte | Baixa          |
+| TC008  | Histórico_de_conversa()       | Verificar se o sistema salva todas as mensagens tratadas | IA ou suporte responde e-mails                 | Nenhum (é automático)                 | Histórico salvo no banco e acessível                          | Admin pode visualizar histórico completo das interações com clientes        | Baixa          |
+
+
 ## Tecnologias Utilizadas
 
 - *Linguagem*: C#
