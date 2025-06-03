@@ -1,4 +1,4 @@
-# Projeto de Sistema de Suporte com serviços de IA
+# Projeto de Sistema de Suporte com serviços de IA1
 
 Este projeto visa desenvolver um sistema integrado de suporte técnico para uma empresa de médio porte. O objetivo é substituir o atual processo de recebimento de chamados por e-mail, permitindo o registro centralizado das solicitações. A inteligência artificial (IA) será usada para sugerir soluções de forma automática ou encaminhar os chamados ao técnico adequado, com base nas intruções fornecidas pelo time de desenvolvimento.
 
