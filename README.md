@@ -7,7 +7,7 @@ Este projeto visa desenvolver um sistema integrado de suporte técnico para uma 
 Melhorar os erros cometidos por equipes de suporte 100% humanizadas e automatizar processos de trabalhos com mais eficiencia
 
 
-## Requisitos Funcionais (RF)
+## Requisitos Funcionais (RF
 
 
 1. Vincular o email que ser usado para responder
